@@ -41,10 +41,7 @@ resource "aws_alb_listener" "main" {
       status_code = "HTTP_301"
     }
   }
-  default_action {
-    type = "forward"
-    target_group_arn = element(aws_alb_target_group.main.*.arn, 0)
-  }
+
 }
 
 resource "aws_alb_listener" "prod" {
