@@ -80,5 +80,5 @@ variable "ssl_policy" {
 
 variable "certificate_arn" {
   type    = string
-  default = "arn:aws:acm:ap-northeast-2:847821753997:certificate/68080cd3-3179-4637-9e8b-1b8e10687ad8"
+  default = "arn:aws:acm:ap-northeast-2:891634105199:certificate/fe15565c-d08e-4629-97c3-83d530227275"
 }
