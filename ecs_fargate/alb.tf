@@ -41,7 +41,6 @@ resource "aws_alb_listener" "main" {
       status_code = "HTTP_301"
     }
   }
-
 }
 
 resource "aws_alb_listener" "prod" {
